@@ -1,0 +1,80 @@
+
+.btn-piece {
+  padding: 0;
+  min-width: 40px;
+  max-width: 40px;
+  min-height: 40px;
+  max-height: 40px;
+  border: 1px solid gray !important; 
+  font: 1em sans-serif;
+  transition: none !important;
+  border-radius: 0rem !important;
+}
+
+.btnX {
+  color: rgb(31, 21, 172);
+}
+
+.btnO {
+  color: #b10c0c;
+}
+
+.btn-win {
+  background-color: #cbed11;
+}
+.not-focusable:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.btn-piece:hover {
+  background-color: #999999;
+  cursor: pointer;
+}
+
+div {
+  margin: 0;
+  padding: 0;
+  height: 40px;
+}
+
+
+.input-custom {
+  margin: 150px auto;
+  display: flex;
+}
+
+.board {
+  margin: 20px auto;
+  
+}
+
+.information b {
+  letter-spacing: 1px;
+}
+
+.information .title {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.input-custom p {
+  margin: auto;
+}
+
+.input-custom input {
+  margin: auto;
+  width: 200px;
+  text-align: center;
+}
+
+.modal-container {
+  position: relative;
+}
+.modal-container .modal, .modal-container .modal-backdrop {
+  position: absolute;
+}
+
+.noti {
+  color: #b10c0c;
+}
